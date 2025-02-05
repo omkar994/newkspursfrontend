@@ -1,0 +1,26 @@
+# Ignore node_modules directory
+node_modules/
+build/
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+.env
+.env.development
+.env.production
+
+# Ignore compiled binaries
+*.class
+*.o
+*.ko
+*.pyc
+
+# Ignore IntelliJ IDEA files
+.idea/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
