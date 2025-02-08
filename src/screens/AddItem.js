@@ -40,7 +40,7 @@ export default function AddItem() {
       }
     );
     const responseJSON = await response.status;
-    if (responseJSON==200) {
+    if (responseJSON===200) {
       alert("Transaction Created");
     }
     else{
